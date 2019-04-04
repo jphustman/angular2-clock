@@ -17,13 +17,15 @@ export class ClockComponent {
         this.data = data || new Date();
         if (this.timer) {
 
-          if(typeof this.data !== 'Date') {
+
+          // Not sure what this was doing
           // if(typeof this.data !== 'Date') {
-            //if(typeof this.data !== 'Date') {
-            date = new Date();
-          } else {
-            date = this.data;
-          }
+          //   this.date = new Date();
+          // } else {
+          //   date = this.data;
+          // }
+
+          this.date = new Date();
 
           // milliseconds = (60 - date.getSeconds()) * 1000;
           milliseconds = 1000;
