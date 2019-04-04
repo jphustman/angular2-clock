@@ -20,12 +20,12 @@ export class ClockComponent {
 
           // Not sure what this was doing
           // if(typeof this.data !== 'Date') {
-          //   this.date = new Date();
+          //   date = new Date();
           // } else {
           //   date = this.data;
           // }
 
-          this.date = new Date();
+          date = new Date();
 
           // milliseconds = (60 - date.getSeconds()) * 1000;
           milliseconds = 1000;
