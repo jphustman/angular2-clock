@@ -1,6 +1,6 @@
-import { NgModule }              from '@angular/core';
-import { CommonModule }          from '@angular/common';
-import { ClockComponent }  from './component';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ClockComponent } from './component';
 
 @NgModule({
   imports: [ CommonModule ],
