@@ -1,5 +1,5 @@
 // our root app component
-import {Component, Attribute} from '@angular/core'
+import {Component, Attribute} from '@angular/core';
 
 @Component({
   selector: 'app-clock',
@@ -13,7 +13,7 @@ export class ClockComponent {
     constructor(@Attribute('format') format, @Attribute('data') data, @Attribute('timer') timer) {
         let date;
         let milliseconds = 1000;
-        this.format = format || 'h:mm:s';
+        this.format = format || 'H:mm:ss';
         this.data = data || new Date();
         if (this.timer) {
 
